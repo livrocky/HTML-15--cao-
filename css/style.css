@@ -1,0 +1,11 @@
+@import url(reset.css);
+@import url(common.css);
+
+.google {
+  width: 200px;
+  margin: 40px 0px 40px 0px;
+}
+
+.title {
+  margin-bottom: 30px;
+}
