@@ -34,11 +34,9 @@
 }
 
 .footer {
-  margin: 0px 40px 0px 40px;
-  background-color: rgb(230, 230, 230);
-  margin-left: 10px;
+  background-color: rgb(245, 243, 243);
+  margin-left: 20px;
   margin-right: 10px;
-  width: 100%;
 }
 
 .footer-title {
@@ -48,6 +46,40 @@
 .contacts {
   padding-top: 40px;
   padding-left: 30px;
+  padding-right: 30px;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-icons {
+  font-size: 28px;
+
+  padding: 5px;
+  margin: 9px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.footer-title2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.get-in-touch {
+  width: 100%;
+}
+
+button {
+  background-color: rgb(89, 85, 85);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+  border: 0px;
+  border-radius: 0.5rem;
 }
 
 @media screen and (min-width: 480px) {
@@ -64,5 +96,25 @@
 
   .title {
     width: 70%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .main-icons {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6 {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
   }
 }
