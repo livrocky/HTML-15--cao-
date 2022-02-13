@@ -1,11 +1,68 @@
 @import url(reset.css);
 @import url(common.css);
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
 .google {
-  width: 200px;
+  width: 40%;
   margin: 40px 0px 40px 0px;
 }
 
 .title {
   margin-bottom: 30px;
+  width: 100%;
+}
+
+.subtitle {
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.img1 {
+  position: relative;
+}
+
+.footer {
+  margin: 0px 40px 0px 40px;
+  background-color: rgb(230, 230, 230);
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.footer-title {
+  padding-bottom: 20px;
+}
+
+.contacts {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .main-icons {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 30px;
+  }
+
+  .google {
+    width: 10%;
+  }
+
+  .title {
+    width: 70%;
+  }
 }
